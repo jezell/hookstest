@@ -1,2 +1,4 @@
 def main:
-  console.log("test")
+  print("hello")
+
+main()
