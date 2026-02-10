@@ -1,4 +1,4 @@
 def main:
   print("hello")
 
-main3()
+main4()
