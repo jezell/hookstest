@@ -34,4 +34,4 @@ Ahora intenta hacer commit de un archivo que contenga `WIP` para ver el hook en 
 - Para compartir hooks entre compañeros, considera un directorio `scripts/` y un script de instalación que coloque los hooks en `.git/hooks/`.
 
 ## Contribuir
-Abre un issue o envía un PR si tienes mejoras o ejemplos adicionales de hooks.
+Abre un issue o envía un PR si tienes mejoras o ejemplos adicionales de hooks. Lee `CONTRIBUTING.md` para detalles sobre configuración, estándares y el proceso de PR.
