@@ -1,19 +1,19 @@
 # Hookstest
 
-A minimal repo for experimenting with hook behavior. Use it as a sandbox to verify when hooks run and what data they receive.
+Un repositorio mínimo para experimentar con el comportamiento de hooks. Úsalo como un entorno de prueba para verificar cuándo se ejecutan los hooks y qué datos reciben.
 
-## What This Is
-- A tiny Git repository for testing hook scripts
-- A safe place to prototype and iterate on hook logic
-- Not a production project
+## Qué es esto
+- Un repositorio Git pequeño para probar scripts de hooks
+- Un lugar seguro para prototipar e iterar sobre la lógica de hooks
+- No es un proyecto de producción
 
-## Quick Start
-1. Clone the repo.
-2. Add a hook script under `.git/hooks/` (hooks are local to your clone).
-3. Make a change and run the Git action that should trigger the hook.
+## Inicio rápido
+1. Clona el repositorio.
+2. Agrega un script de hook en `.git/hooks/` (los hooks son locales a tu clon).
+3. Haz un cambio y ejecuta la acción de Git que debería activar el hook.
 
-## Example: `pre-commit` Hook
-Create a simple hook that blocks commits containing the word `WIP`:
+## Ejemplo: hook `pre-commit`
+Crea un hook simple que bloquee commits que contengan la palabra `WIP`:
 
 ```bash
 cat <<'HOOK' > .git/hooks/pre-commit
@@ -27,11 +27,11 @@ HOOK
 chmod +x .git/hooks/pre-commit
 ```
 
-Now try committing a file containing `WIP` to see the hook in action.
+Ahora intenta hacer commit de un archivo que contenga `WIP` para ver el hook en acción.
 
-## Tips
-- Hooks are not committed with the repo by default.
-- To share hooks across teammates, consider a `scripts/` directory and a setup script that installs hooks into `.git/hooks/`.
+## Consejos
+- Los hooks no se versionan con el repositorio de forma predeterminada.
+- Para compartir hooks entre compañeros, considera un directorio `scripts/` y un script de instalación que coloque los hooks en `.git/hooks/`.
 
-## Contributing
-Open an issue or submit a PR if you have improvements or additional hook examples.
+## Contribuir
+Abre un issue o envía un PR si tienes mejoras o ejemplos adicionales de hooks. Lee `CONTRIBUTING.md` para detalles sobre configuración, estándares y el proceso de PR.
