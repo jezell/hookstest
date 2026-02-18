@@ -35,3 +35,6 @@ Now try committing a file containing `WIP` to see the hook in action.
 
 ## Contributing
 Open an issue or submit a PR if you have improvements or additional hook examples.
+
+## License
+Licensed under the Apache License, Version 2.0. See `LICENSE`.
