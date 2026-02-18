@@ -1,0 +1,2 @@
+Sample text file for issue #12.
+Created on 2026-02-18.
