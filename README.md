@@ -37,4 +37,4 @@ Now try committing a file containing `WIP` to see the hook in action.
 - To share hooks across teammates, consider a `scripts/` directory and a setup script that installs hooks into `.git/hooks/`.
 
 ## Contributing
-Open an issue or submit a PR if you have improvements or additional hook examples.
+Open an issue or submit a PR if you have improvements or additional hook examples. See `CONTRIBUTING.md` for guidelines.
