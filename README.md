@@ -12,6 +12,9 @@ A minimal repo for experimenting with hook behavior. Use it as a sandbox to veri
 2. Add a hook script under `.git/hooks/` (hooks are local to your clone).
 3. Make a change and run the Git action that should trigger the hook.
 
+## Samples
+- `samples/hello-world.sh` prints `Hello, world!` and can be used to verify your shell setup.
+
 ## Example: `pre-commit` Hook
 Create a simple hook that blocks commits containing the word `WIP`:
 
